@@ -25,17 +25,17 @@ export default ProductCardComponent
 const styles = StyleSheet.create({
     container: {
         backgroundColor:"#dbdbdbff",
-        margin:10,
+        margin:5,
         borderRadius: 10,
-        padding:4
-        
+        padding:4,
+        width:"45%" ,        
     },
     image:{
-        flex:1,
-        height: Dimensions.get("window").height/3,
+       flex:1,
+        height: Dimensions.get("window").height/5,
         borderTopLeftRadius:  10,
        alignItems:"stretch",
-     
+         
     },
     title:{
         fontWeight:"bold",

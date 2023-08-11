@@ -5,13 +5,14 @@ import InputComponent from './src/components/input';
 import ProductsListComponent from './src/components/productsList';
 
 export default function App() {
+
   return (
 
     <View style={styles.container}>
 
     
         {/* // Headar--> patistore */}
-        <TitleComponent/>
+       <TitleComponent/>
 
 
         {/* //input  */}
